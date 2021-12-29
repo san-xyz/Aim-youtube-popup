@@ -14,6 +14,7 @@ S0.innerHTML = `
         background:rgba(0,0,0,.7);
         opacity:1;
         -webkit-transition:opacity .5s ease;
+        z-index:1999;
     }
     .MND{
         height:250px;
@@ -23,7 +24,7 @@ S0.innerHTML = `
         left:calc(50vw - 125px);
         background:rgb(300,225,200);
         border-radius:50px; 
-        z-index:2;      
+        z-index:2999;      
         text-align:center; 
         font-weight:900;
     }
@@ -39,7 +40,7 @@ S0.innerHTML = `
         position:absolute; 
         left:calc(50% - 25px);
         top:-10px;
-        z-index:3;
+        z-index:3999;
     }
     #YTS{
         height:25px;
@@ -56,7 +57,7 @@ S0.innerHTML = `
         height:50px;
         width:200px;
         background:red;
-        z-index:4;
+        z-index:4999;
         position:absolute;
         left:25px;
         top:25px;
@@ -76,7 +77,7 @@ S0.innerHTML = `
     }
     #YTLK{
         width:100%;
-        z-index:5;
+        z-index:5999;
         position:absolute;
         font-size:10px;
         top:170px;
@@ -96,7 +97,7 @@ S0.innerHTML = `
         position:absolute; 
         left:calc(50% - 25px);
         bottom:-10px;
-        z-index:3;
+        z-index:6999;
         color:white;
     }
 `;
