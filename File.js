@@ -115,7 +115,7 @@ D1.innerHTML = `
 `;
 document.head.appendChild(S0);
 document.body.appendChild(D1);
-D1.onclick = () => {
+document.getElementById("OK").onclick = () => {
     D1.style.opacity = "0";
     setTimeout(()=>{
         D1.style.display = "none";
