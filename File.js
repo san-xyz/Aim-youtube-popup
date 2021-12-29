@@ -69,10 +69,10 @@ S0.innerHTML = `
     }
     #PPT{
         width:100%;
-        z-index:4;
+        z-index:4999;
         position:absolute;
         font-size:17px;
-        top:80px;
+        top:90px;
         color:black;   
     }
     #YTLK{
